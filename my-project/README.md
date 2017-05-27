@@ -33,10 +33,33 @@ npm install css-loader --save-dev
 npm install file-loader --save-dev
 
 # 修改build文件下的webpack.base.conf.js文件
+var webpack = require('webpack')
 
+# 在module.exports最下面添加
+plugins: [
+    new webpack.ProvidePlugin({
+        $: "jquery",
+        jQuery: "jquery",
+        "window.jQuery": "jquery"
+    })
+]
 
-
+# 在main.js中import bootstrap
+import './assets/bootstrap/css/bootstrap.min.css'
+import './assets/bootstrap/js/bootstrap.min'
 ```
 ![image](http://i.imgur.com/7j5uGrT.png)
+
+![image](http://i.imgur.com/GQea8Em.png)
+
+### 方法二
+``` bash
+# 安装jquery
+npm install jquery --save
+
+# 在main.js中加入
+import jquery from 'jquery'
+window.$$ = jquery
+```
 
 
