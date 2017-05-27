@@ -33,7 +33,7 @@ npm install css-loader --save-dev
 npm install file-loader --save-dev
 
 # 修改build文件下的webpack.base.conf.js文件
-![](https://github.com/lxw666/picture/blob/master/vueStudy/p(1).jpg)
+![](http://i.imgur.com/3Z2YT26.png)
 ```
 
 
