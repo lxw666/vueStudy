@@ -53,7 +53,7 @@ import './assets/bootstrap/js/bootstrap.min'
 ```
 ![image](http://i.imgur.com/7j5uGrT.png)
 
-![image](http://i.imgur.com/GQea8Em.png)
+![image](http://i.imgur.com/uv0ND9t.png)
 
 ### 方法二
 ``` bash
