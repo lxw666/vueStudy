@@ -37,6 +37,6 @@ npm install file-loader --save-dev
 
 
 ```
-![image](https://github.com/lxw666/vueStudy/blob/master/my-project/src/assets/logo.png)
+![image](http://i.imgur.com/7j5uGrT.png)
 
 
