@@ -35,6 +35,9 @@ npm install file-loader --save-dev
 # 修改build文件下的webpack.base.conf.js文件
 var webpack = require('webpack')
 
+# 在module.exports resolve alias下面加入
+jquery: "jquery/src/jquery"
+
 # 在module.exports最下面添加
 plugins: [
     new webpack.ProvidePlugin({
