@@ -25,6 +25,15 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 ### 方法一：
 ``` bash
 # 安装jquery插件，通过cmd进入项目文件夹，运行npm(cnpm) install jquery --save-dev安装插件
+npm(cnpm) install jquery --save-dev
+
+# 安装支持css的插件
+npm install style-loader --save-dev
+npm install css-loader --save-dev
+npm install file-loader --save-dev
+
+# 修改build文件下的webpack.base.conf.js文件
+![](https://github.com/lxw666/picture/blob/master/vueStudy/p(1).jpg)
 ```
 
 
