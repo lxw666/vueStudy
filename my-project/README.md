@@ -5,6 +5,15 @@
 ## Build Setup
 
 ``` bash
+# 最新稳定版
+npm install vue
+
+# 全局安装 vue-cli
+npm install -g vue-cli
+
+# 创建一个基于 webpack 模板的新项目
+vue init webpack my-project
+
 # install dependencies
 npm install
 

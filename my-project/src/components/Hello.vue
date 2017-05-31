@@ -1,6 +1,5 @@
 <template>
     <div class="hello">
-        <h1>{{ msg }}</h1>
         <nav class="navbar navbar-default" role="navigation">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -69,7 +68,7 @@
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style scoped >
     h1, h2 {
         font-weight: normal;
     }
