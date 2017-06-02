@@ -31,7 +31,7 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 ## import jQuery and bootstrap
 
-### 方法一：
+#### 方法一：
 ``` bash
 # 安装jquery插件，通过cmd进入项目文件夹，运行npm(cnpm) install jquery --save-dev安装插件
 npm(cnpm) install jquery --save-dev
@@ -64,7 +64,7 @@ import './assets/bootstrap/js/bootstrap.min'
 
 ![image](http://i.imgur.com/uv0ND9t.png)
 
-### 方法二
+#### 方法二
 ``` bash
 # 安装jquery
 npm install jquery --save
