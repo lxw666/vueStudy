@@ -87,7 +87,7 @@ test: /\.(css|scss)$/,
 loader: "style-loader!css-loader!!sass-loader"
 
 # 在组件style中加入lang=“scss”即可；（也可以引入外部样式文件）
-@import ‘文件路径’；（千万）**不要忘记加上分号**。
+@import ‘文件路径’；（千万**不要忘记加上分号**）。
 ```
 ![image](http://i.imgur.com/G9Slfbl.png)
 > **注意！！！**
