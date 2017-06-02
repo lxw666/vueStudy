@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Hello from './components/Hello'
+import Hello from './components/Hello';
 
 export default {
   name: 'app',
@@ -16,6 +16,7 @@ export default {
 </script>
 
 <style>
+@import 'assets/bootstrap/css/bootstrap.min.css';
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

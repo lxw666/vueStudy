@@ -74,4 +74,17 @@ import jquery from 'jquery'
 window.$$ = jquery
 ```
 
+## support sass in vue
+``` bash
+# 安装node-sass(最好用cnpm)
+cnpm install node-sass --save-dev
+
+# 安装vue-style-loader,sass-loader,css-loader
+cnpm install vue-style-loader sass-loader css-loader --save-dev
+
+# 在webpack.base.conf.js中的module-rule中加入：
+test: /\.(css|scss)$/,
+loader: "style-loader!css-loader!!sass-loader"
+```
+![image](http://i.imgur.com/G9Slfbl.png)
 
