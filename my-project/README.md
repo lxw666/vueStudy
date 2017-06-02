@@ -92,5 +92,5 @@ loader: "style-loader!css-loader!!sass-loader"
 ![image](http://i.imgur.com/G9Slfbl.png)
 > **注意！！！**
 ``` bash
-引入了css-loader之后，在main.js中import的bootstrap.min.css将会报错：无法找到相应的模块；此时只要把bootstrap.css引入到组件的style中即可：@import ‘文件路径’；（千万）**不要忘记加上分号**。
+引入了css-loader之后，在main.js中import的bootstrap.min.css将会报错：无法找到相应的模块；此时只要把bootstrap.css引入到组件的style中即可：@import ‘文件路径’；（千万**不要忘记加上分号**）。
 ```
